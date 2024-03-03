@@ -1,14 +1,11 @@
 variable "vsphere_server" {
-  default =  ""
-}
+ }
 
 variable "vsphere_user" {
-  default = ""
-}
+  }
 
 variable "vsphere_password" {
-  default = ""
-}
+  }
 
 variable "vsphere_datacenter" {
   default = "Indy"
