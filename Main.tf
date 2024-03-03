@@ -1,5 +1,5 @@
 resource "vsphere_virtual_machine" "this" {
-  name             = "intftest01lvd"
+  name             = "Kanheiya"
   resource_pool_id = data.vsphere_compute_cluster.cluster.resource_pool_id
   datastore_id     = data.vsphere_datastore.datastore.id
 
@@ -28,7 +28,7 @@ resource "vsphere_virtual_machine" "this" {
 
     customize {
       linux_options {
-        host_name   = "intftest01lvd"
+        host_name   = "Kanheiya"
         script_text = file("./customization.sh")
         domain      = "noam.fadv.net"
       }
