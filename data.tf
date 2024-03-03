@@ -3,13 +3,12 @@ variable "vsphere_server" {
 }
 
 variable "vsphere_user" {
-  default = "mishrkan@apac.fadv.net"
+  default = "administrator@vsphere.local"
 }
 
 variable "vsphere_password" {
-  default = "Shivansh@11223"
+  default = "F@dv#123"
 }
-
 
 data "vsphere_datacenter" "dc" {
   name = "Indy"
