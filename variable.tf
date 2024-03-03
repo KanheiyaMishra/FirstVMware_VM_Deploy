@@ -3,7 +3,7 @@ variable "vsphere_server" {
 }
 
 variable "vsphere_user" {
-  default = "mishrkan@a[apac.fadv.net "
+  default = "mishrkan@apac.fadv.net "
 }
 
 variable "vsphere_password" {
