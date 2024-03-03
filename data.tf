@@ -1,3 +1,16 @@
+variable "vsphere_server" {
+  default =  "noamind01vcx02.noam.fadv.net"
+}
+
+variable "vsphere_user" {
+  default = "mishrkan@apac.fadv.net"
+}
+
+variable "vsphere_password" {
+  default = "Shivansh@11223"
+}
+
+
 data "vsphere_datacenter" "dc" {
   name = "Indy"
 }
