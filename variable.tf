@@ -1,13 +1,13 @@
 variable "vsphere_server" {
-  default =  "noamind01vcx02.noam.fadv.net"
+  default =  ""
 }
 
 variable "vsphere_user" {
-  default = "administrator@vsphere.local"
+  default = ""
 }
 
 variable "vsphere_password" {
-  default = "F@dv#123"
+  default = ""
 }
 
 variable "vsphere_datacenter" {
@@ -39,7 +39,7 @@ variable "VM_Network"{
 }
 
 variable "aci_vm1_address" {
-  default = "10.74.4.191"
+  default = "10.74.4.194"
 }
 
 variable "gateway" {
