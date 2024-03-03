@@ -1,5 +1,5 @@
 variable "vsphere_server" {
-  default =  "noamind01vcx02.noam.fadv.net"
+  default =  "https://noamind01vcx02.noam.fadv.net"
 }
 
 variable "vsphere_user" {
