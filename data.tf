@@ -33,3 +33,5 @@ data "vsphere_virtual_machine" "template" {
   name          = "OEL_8X_Template"
   datacenter_id = data.vsphere_datacenter.dc.id
 }
+
+#cdcv
